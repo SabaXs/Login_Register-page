@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_centerInParent="true"
+        android:id="@+id/appIcon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/appName"
+        android:text="FinExp"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:layout_below="@+id/appIcon"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

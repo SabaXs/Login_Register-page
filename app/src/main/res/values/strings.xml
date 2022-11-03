@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login Page</string>
+
+
+    <string name="home">Home</string>
+    <string name="insight">Insights</string>
+    <string name="add">Add</string>
+    <string name="account">Account</string>
+    <string name="setting">Settings</string>
+</resources>
